@@ -1,0 +1,58 @@
+body {background-color: white;}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    display: inline-block;
+    margin:0 auto;
+    width:320px; /* fixed width */
+    font-family: "Trebuchet MS";
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(171, 162, 247);
+    color: rgb(0, 0, 0);
+  }
+
+  .content {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .font {
+    font-family: "Trebuchet MS";
+  }
+
+  p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+   }
+
+   h3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+   }
+
+   h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+   }
+
+
+
+
+  
