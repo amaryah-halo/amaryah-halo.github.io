@@ -10,10 +10,25 @@ body {background-color: white;}
     width: 960px;
    }
 
-   img {  
-    margin: 17%;
-    width: 260px;
-   }
+   .margin-pic{
+    margin-left: 17%;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
    h3 {
     margin-left: 17%;
@@ -34,14 +49,32 @@ body {background-color: white;}
   }
 
   ul {
+    font-family: "Trebuchet MS";
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: #f1f1f1;
-    height: 100%; /* Full height */
+    background-color: #1e82e0;
+    height:98%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: rgb(199, 65, 65);
+    color:black;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
   }
 
 
