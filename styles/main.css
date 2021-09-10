@@ -1,63 +1,28 @@
 body {background-color: white;}
 
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: black;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 23px;
-    display: inline-block;
-    margin:0 auto;
-    width:30.85%; /* fixed width */
-    font-family: "Trebuchet MS";
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: rgb(63, 196, 81);
-    color: rgb(0, 0, 0);
-  }
-
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
   .font {
     font-family: "Trebuchet MS";
   }
 
   p {
-    margin-left: auto;
+    margin-left: 17%;
     margin-right: auto;
     width: 960px;
    }
 
    img {  
-    margin: 0 0 0 226px;
+    margin: 17%;
     width: 260px;
    }
 
    h3 {
-    margin-left: auto;
+    margin-left: 17%;
     margin-right: auto;
     width: 960px;
    }
 
    h1 {
-    margin-left: auto;
+    margin-left: 17%;
     margin-right: auto;
     width: 960px;
    }
@@ -66,6 +31,17 @@ body {background-color: white;}
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
   }
 
 
