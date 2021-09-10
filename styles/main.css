@@ -15,13 +15,13 @@ body {background-color: white;}
     font-size: 23px;
     display: inline-block;
     margin:0 auto;
-    width:320px; /* fixed width */
+    width:30.85%; /* fixed width */
     font-family: "Trebuchet MS";
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: rgb(171, 162, 247);
+    background-color: rgb(63, 196, 81);
     color: rgb(0, 0, 0);
   }
 
@@ -35,11 +35,6 @@ body {background-color: white;}
     color: black;
   }
 
-  .content{
-    max-width: 500px;
-    margin: auto;
-  }
-
   .font {
     font-family: "Trebuchet MS";
   }
@@ -50,9 +45,8 @@ body {background-color: white;}
     width: 960px;
    }
 
-   img {
-    margin-left: auto;
-    margin-right: auto;
+   img {  
+    margin: 0 0 0 226px;
     width: 260px;
    }
 
@@ -68,6 +62,11 @@ body {background-color: white;}
     width: 960px;
    }
 
+   .center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
 
 
 
