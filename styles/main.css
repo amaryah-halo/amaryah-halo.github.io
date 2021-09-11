@@ -4,7 +4,7 @@ body {background-color: white;}
     font-family: "Trebuchet MS";
   }
 
-  p, h1, h3 {
+  p, h1, h3, dl {
     margin-left: 17%;
     margin-right: 30%;
     width: 80%;
@@ -15,11 +15,6 @@ body {background-color: white;}
     width: 33.33%;
     padding: 5px;
   }
-
-  .column {
-    width: 33.33%;
-    padding: 5px;
-  }
   
   /* Clear floats after image containers */
   .row::after {
@@ -27,18 +22,6 @@ body {background-color: white;}
     clear: both;
     display: table;
   }
-
-   h3 {
-    margin-left: 17%;
-    margin-right: auto;
-    width: 960px;
-   }
-
-   h1 {
-    margin-left: 17%;
-    margin-right: auto;
-    width: 960px;
-   }
 
    .center {
     margin-left: auto;
