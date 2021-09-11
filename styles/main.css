@@ -4,7 +4,7 @@ body {background-color: white;}
     font-family: "Trebuchet MS";
   }
 
-  p, h1, h3, dl {
+  p, h1, h2, h3, dl {
     margin-left: 17%;
     margin-right: 30%;
     width: 80%;
@@ -12,6 +12,12 @@ body {background-color: white;}
 
    .margin-pic{
     margin-left: 17%;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .middle-pic{
+    margin-left: 37%;
     width: 33.33%;
     padding: 5px;
   }

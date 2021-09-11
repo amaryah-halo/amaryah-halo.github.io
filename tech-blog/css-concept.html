@@ -1,45 +1,49 @@
-<!DOCTYPE html>
 <html>
+  
   <head>
-    <title> Amaryah Halo </title>
-    <meta charset="UTF-8">
+    <title>Amaryah Halo EDA Blog</title>
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  </head>
+  <head>  
 
-  <ul>
-    <li><a href="../index.html">Home Page</a></li>
-    <li><a href="./tech-blog/technical-blog.html">Technical Blog</a>
-    <li><a href="#core">Core Blog</a>
-  </ul>
+    <ul>
+      <li><a href="../index.html">Home Page</a></li>
+      <li><a href = "tech-index.html">Technical Blog</a>
+        <li class ="active"><a href="#css-concept.html">Sprint 2: What is the difference between Margin, Border, and Padding?</a>
+      <li><a href="../core-blog/core-index.html">Core Blog</a>
+    </ul>
+  
 
   <body class = "font">
-    <h1>What is the difference between Margin, Border, and Padding?</h1>
+    <h1>Sprint 2: What is the difference between Margin, Border, and Padding?</h1> 
 
-    <h3>10 November 2010</h3>
-
-    <p>
-      Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies. One morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his mother to prepare the hangi.
-    </p>
-    <p>
-      Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, he ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes) situated at the foot of the hill Whangatauatia.
-    </p>
-    <p>
-      While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai (food). He was immediately recognised.
-    </p>
+    <h3 style="color: rgb(3, 153, 223);">Saturday, 11 September 2021</h3> 
     
+    <div class="row">
+      <img class = "middle-pic" src="../images/diagram.jpg" alt="diagram">
+      <p>The diagram above shows where the margin, border, and padding is located on any content. Content can include headings, paragraphs, and images etc.</p>
+    </div>
+    
+    <h2>Margin</h2>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ante ex, pharetra vitae justo sed, congue blandit urna. Proin lobortis, nisi id ullamcorper fringilla, orci arcu placerat mauris, a convallis dui nibh ut augue. Nam vel mollis tortor. Sed condimentum in orci at tincidunt. Nullam varius dictum nisi et rutrum. Donec in iaculis velit. Suspendisse placerat odio mauris, vel interdum justo aliquet eget. Nunc congue convallis velit non posuere. Morbi gravida et nunc sit amet auctor. Suspendisse blandit, eros et blandit posuere, orci nulla scelerisque sapien, et blandit risus velit non mauris. Sed ultricies risus vel elit tempus pulvinar.
-
-      Nunc feugiat urna in massa luctus, sit amet dignissim felis condimentum. Aenean sed neque dolor. Proin sapien enim, interdum sed tortor et, luctus interdum ligula. Pellentesque commodo neque eget velit aliquet, nec condimentum leo porttitor. Maecenas sit amet hendrerit est. Mauris vulputate neque orci, eget pulvinar libero pretium eu. Ut ac dui eu lacus posuere ullamcorper. Nullam maximus diam eu purus scelerisque, nec gravida turpis elementum.
-      
-      Quisque sed nisl nunc. In a arcu feugiat, gravida nunc et, mattis velit. Aliquam vulputate, orci vitae sollicitudin congue, ipsum lorem sollicitudin nunc, at pellentesque nisi erat in neque. Sed euismod consequat elit, sed placerat eros faucibus vitae. Sed tristique accumsan orci id hendrerit. Quisque nec dignissim libero, at consectetur turpis. Fusce dignissim, orci vitae aliquam tincidunt, nunc sapien fringilla mauris, vel pulvinar tortor nisl nec orci. Nunc et cursus nisi, ac molestie odio. Nam mattis viverra bibendum. Proin eu enim enim. Vivamus condimentum varius dui vel consectetur.
-      
-      Proin sed magna ac justo ornare dapibus. Mauris dictum nunc vitae elit efficitur congue. Phasellus molestie leo at nisi faucibus tristique. Duis sed nibh vel erat molestie dictum a ac metus. Vestibulum nec enim ante. Donec mollis eros at varius aliquet. Nullam ac dictum risus. Pellentesque varius vulputate tortor, ac malesuada odio laoreet at. Aliquam erat volutpat. Nullam sed quam sagittis, malesuada dui non, ultrices ligula. Integer faucibus rutrum tincidunt.
-
+     The margin is the space around the border as seen in the diagram above. To simply put it, a margin is the space outside 
+     of something (i.e. an image, paragraph, heading etc). If you were to increase the margin size of something, the size of the content will remain 
+     at the same size. However, the space around it will increase and push away any other content which is near it. For example, an image 
+     which is increasing in margin size will push away any text that is surrounding it. To adjust the size you can either use percentage, pixels, and so on. 
+     You can also adjust a specific margin using margin-left, margin-right, margin-top, and margin-bottom. 
     </p>
 
-    
-    <!-- this is a comment. -->
-  
-  </body>
+    <h2>Border</h2>
+    <p>
+      A border is the space between the margin and padding. It increases in relevance to the padding and content - however, if the 
+      margin is increased the border and everything inside of it remains at the same size.  
+    </p>
+
+    <h2>Padding</h2>
+    <p>
+      The padding is the space directly outside of the content and within the border as seen in the diagram above. If you were to increase the padding size of your content, 
+      the size of the content will also change. This is the key difference between padding and margins. Padding will change the size of the content whereas margins won't. Padding is 
+      usually used to create a bit of white space surrounding the content section. Similar to margin, specific areas can be altered using padding-left, padding-right, padding-top, and padding-bottom. To put it in simple terms, 
+      padding controls the inside of an element and margin controls the outside of an element. The border just kinda sits in between.
+    </p>
+
 </html>
