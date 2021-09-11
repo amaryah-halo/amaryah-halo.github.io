@@ -48,13 +48,14 @@ body {background-color: white;}
     width: 25%;
   }
 
+
   ul {
     font-family: "Trebuchet MS";
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: #1e82e0;
+    background-color: #fcbc31;
     height:98%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
@@ -62,19 +63,17 @@ body {background-color: white;}
 
   li a {
     display: block;
-    color: #000;
+    color: black;
     padding: 8px 16px;
     text-decoration: none;
-  }
-  
-  li a.active {
-    background-color: white;
-    color:black;
   }
   
   li a:hover:not(.active) {
     background-color: #555;
     color: white;
+  }
+  .active {
+    background-color: rgb(219, 219, 219);
   }
 
 
