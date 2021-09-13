@@ -1,12 +1,12 @@
-body {background-color: white;}
+body {background-color: rgb(255, 255, 255);}
 
   .font {
     font-family: "Trebuchet MS";
   }
 
-  p, h1, h2, h3, dl {
+  p, h1, h2, h3, dl{
     margin-left: 17%;
-    margin-right: 30%;
+    margin-right: 150px;
     width: 80%;
    }
 
@@ -34,7 +34,6 @@ body {background-color: white;}
     margin-right: auto;
     width: 25%;
   }
-
 
   ul {
     font-family: "Trebuchet MS";
